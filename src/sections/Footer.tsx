@@ -16,7 +16,7 @@ export default function Footer() {
       </p>
 
       <p className="mt-10 text-xs tracking-[0.25em] text-[#6f6788] leading-loose">
-        阿囉波遮那 Arapacana —— 依法不依人
+        字门次第 · Arapacana —— 依法不依人
         <br />
         程序生图 · 零图片资源 · 记录仅存于行者浏览器
       </p>

@@ -18,7 +18,7 @@ export default function Hero() {
         className="fade-up mt-8 text-3xl sm:text-5xl tracking-[0.35em] text-[#f0e7cb] font-light"
         style={{ animationDelay: '0.3s', paddingLeft: '0.35em' }}
       >
-        阿囉波遮那
+        字门次第
       </h1>
 
       <p className="fade-up mt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2" style={{ animationDelay: '0.4s' }}>

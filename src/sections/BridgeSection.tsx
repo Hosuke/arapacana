@@ -129,7 +129,7 @@ export default function BridgeSection({ onPractice }: Props) {
           </table>
         </div>
         <p className="mt-4 text-xs leading-relaxed text-[#6f6788]">
-          交：阿、迦、娑等字两门共用。离：种子字系统多出带鼻音、送气的密教特有音节（鑁 vāṃ、纥哩 hrīḥ、吽 hūṃ、唵 oṃ）；
+          交：阿、迦、娑等字两门共用。离：种子字系统多出带鼻音、送气的密教特有音节（鑁 vaṃ、纥哩 hrīḥ、吽 hūṃ、唵 oṃ）；
           字门则多出大量二合复辅音字。两门有交有离，恰是「显密同源于梵音」的结构证据。
         </p>
       </div>

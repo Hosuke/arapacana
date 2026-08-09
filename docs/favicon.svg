@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">字门次第·金刚界大日如来种子字vaṃ</title>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="48%" r="55%">
+      <stop offset="0" stop-color="#d8b84a" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#d8b84a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="38%" cy="34%" r="68%">
+      <stop offset="0" stop-color="#f6eed6"/>
+      <stop offset=".76" stop-color="#e4d6ac"/>
+      <stop offset="1" stop-color="#bea86e"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0b0912"/>
+  <circle cx="32" cy="32" r="29" fill="url(#halo)"/>
+  <circle cx="32" cy="32" r="23" fill="url(#moon)"/>
+  <circle cx="32" cy="32" r="24.25" fill="none" stroke="#d8b84a" stroke-opacity=".72" stroke-width="1.5"/>
+  <g fill="#8a6a1e" transform="translate(20 48) scale(.4)">
+    <path d="M 42.398438 11 L 44.699219 8.398438 C 40.101562 4.699219 38.5 1.300781 38.5 -5 L 38.5 -46.5 C 45.5 -50.800781 52.601562 -55.800781 58 -62 L 49 -68.300781 C 45.601562 -65.800781 41.101562 -64.5 36.699219 -64.5 C 32.101562 -64.5 29.300781 -66.601562 25.5 -66.601562 C 23.101562 -66.601562 21.300781 -65.5 20.199219 -63.699219 C 18.601562 -64.300781 17 -65.101562 15.699219 -65.898438 C 15 -65.5 14.5 -64.800781 14.5 -63.800781 C 14.5 -61.5 16.601562 -58.601562 27.398438 -51.398438 C 15.398438 -44.300781 4 -39.300781 4 -31.800781 C 4 -20.699219 16.398438 -12.601562 29.5 -5.800781 C 29.5 -0.699219 32.5 4.199219 42.398438 11 Z M 13 -25.699219 C 13 -31.199219 20.300781 -35.800781 29.5 -41.199219 L 29.5 -10 C 17.699219 -16.800781 13 -20.601562 13 -25.699219 Z"/>
+    <path transform="translate(21.203125 0)" d="M 12.101562 -75.898438 L 21.398438 -83.199219 L 12.398438 -89.5 L 3 -82.101562 Z"/>
+  </g>
+</svg>

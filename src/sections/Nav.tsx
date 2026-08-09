@@ -17,7 +17,7 @@ export default function Nav() {
         <a href="#overture" className="flex items-center gap-2.5 group">
           <span className="font-siddham text-gold text-xl leading-none">{'\u{11580}'}</span>
           <span className="tracking-[0.25em] text-sm text-[#e8dfc4] group-hover:text-gold transition-colors">
-            阿囉波遮那
+            字门次第
           </span>
         </a>
         <div className="flex items-center gap-4 sm:gap-6">
