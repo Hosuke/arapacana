@@ -66,7 +66,7 @@ export default function LetterWheel({ selected, onSelect, size = 560 }: Props) {
         const x = c + rRing * Math.cos(angle)
         const y = c + rRing * Math.sin(angle)
         const isSel = selected === l.n
-        const compact = l.type !== '一合'
+        const compact = l.form === '合字'
         return (
           <g
             key={l.n}

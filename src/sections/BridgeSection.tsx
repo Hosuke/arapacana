@@ -3,7 +3,7 @@ import { seedSyllables, fiveElements } from '@/data/seeds'
 import { letters42 } from '@/data/letters42'
 import LetterDossier, { type DossierData } from '@/components/LetterDossier'
 
-/** 五大 → 字门对应（风轮诃字归于二合「诃婆」） */
+/** 五大 → 字门参照（风轮诃字可在合字「诃婆」中参照） */
 const elementLetterN: Record<string, number> = { 地轮: 1, 火轮: 2, 水轮: 11, 空轮: 24, 风轮: 32 }
 
 interface Props {
@@ -28,15 +28,15 @@ export default function BridgeSection({ onPractice }: Props) {
           两门一音
         </h2>
         <p className="mt-5 text-sm text-dim leading-loose max-w-3xl mx-auto">
-          同一梵音，开出两门：般若字门以之「扫相」，诸尊种子字以之「立德」。
+          般若字门依字观不可得，诸尊种子字以一字总摄所表功德。
           <br />
-          扫到极处与立到极处，是同一个地方。
+          两门可互相参照；所依经轨与修法层次，仍须分别明了。
         </p>
       </header>
 
-      {/* 文殊五字：两门的钥匙 */}
+      {/* 文殊五字：两门的相通处 */}
       <div className="rounded-lg border border-[#c9a227]/30 bg-[#131022]/90 p-7 sm:p-9 mb-10 text-center">
-        <div className="text-xs tracking-[0.35em] text-gold mb-5">两门的钥匙 · 文殊五字真言</div>
+        <div className="text-xs tracking-[0.35em] text-gold mb-5">两门的相通处 · 文殊五字真言</div>
         <div className="flex justify-center items-center gap-3 sm:gap-5 flex-wrap">
           {[
             { s: '\u{11580}', h: '阿', r: 'a' },
@@ -58,9 +58,9 @@ export default function BridgeSection({ onPractice }: Props) {
           ))}
         </div>
         <p className="mt-6 text-sm leading-loose text-dim max-w-2xl mx-auto">
-          文殊菩萨的五字真言「阿囉波者那」，恰是四十二字门的前五字。
+          文殊五字真言「阿囉波者那」的音序，与四十二字门前五字相应；《华严经》第二字音译作「多」。
           <br />
-          这不是巧合——般若字门正是密教种子字的显教前身：密教把「唱出来的般若」，转成了「观出来的法身」。
+          两类传统皆以梵音字相为门。不空仪轨又明载四十二梵字布于月轮，故可相互参照；其传承与行法则不可混同。
         </p>
       </div>
 
@@ -68,29 +68,29 @@ export default function BridgeSection({ onPractice }: Props) {
       <div className="grid md:grid-cols-2 gap-5 mb-10">
         <article className="rounded-lg border border-[#2a2440] bg-[#131022]/80 p-7">
           <h3 className="text-lg tracking-[0.2em] text-[#f0e7cb] mb-1">般若字门 · 四十二字母</h3>
-          <p className="text-xs tracking-[0.25em] text-gold mb-4">遮诠 · 横向遍入</p>
+          <p className="text-xs tracking-[0.25em] text-gold mb-4">逐门观义</p>
           <ul className="space-y-2.5 text-sm leading-relaxed text-dim">
-            <li>· 四十二门依次展开，如走过四十二扇窗，每扇窗见同一片虚空</li>
-            <li>· 运作逻辑：字带出概念，当下说「不可得」——层层剥落，荡相遣执</li>
-            <li>· 以唱诵为体：42 主字 × 12 韵 = 504 音，音音相续如旋如轮</li>
-            <li>· 天台以四十二字配圆教四十二位：唱一字如历一位</li>
+            <li>· 四十二门依次展开，如走过四十二扇窗，各随一字观其不可得义</li>
+            <li>· 依字观义：字引出法义，复观其不可得，以离名相执著</li>
+            <li>· 经文依次唱持四十二字，一字一门，各入般若波罗蜜门</li>
+            <li>· 古德有以四十二字配菩萨行位之说，可作观学次第的参照</li>
           </ul>
         </article>
         <article className="rounded-lg border border-[#2a2440] bg-[#131022]/80 p-7">
           <h3 className="text-lg tracking-[0.2em] text-[#f0e7cb] mb-1">诸尊种子字</h3>
-          <p className="text-xs tracking-[0.25em] text-gold mb-4">表诠 · 纵向总持</p>
+          <p className="text-xs tracking-[0.25em] text-gold mb-4">一字摄德</p>
           <ul className="space-y-2.5 text-sm leading-relaxed text-dim">
-            <li>· 一字含摄本尊万德——一颗种子含摄整棵大树</li>
-            <li>· 以观想为体：心月轮中现字，字放光，光摄入心</li>
-            <li>· 本尊是功德之函数，种子字是其真形（法曼荼罗）</li>
-            <li>· 观到极处「字亡观寂」——又回到字门一路走到的空处</li>
+            <li>· 依种子字法义，一字表摄本尊功德，譬如一颗种子含摄大树</li>
+            <li>· 仪轨常见心月轮、现字、放光、摄归等次第；本站只作文献说明</li>
+            <li>· 尊名所表，归于悲智愿行；种子字总摄其德，譬如种子含树</li>
+            <li>· 经轨亦说由字相入观而不住字相；实际行法仍以师授为准</li>
           </ul>
         </article>
       </div>
 
       {/* 种子字表 */}
       <div className="rounded-lg border border-[#2a2440] bg-[#131022]/80 p-7 mb-10">
-        <h3 className="text-sm tracking-[0.35em] text-gold mb-5">诸尊种子字 · 与字轮的交与离</h3>
+        <h3 className="text-sm tracking-[0.35em] text-gold mb-5">常见种子字索引 · 与四十二字门的异同</h3>
         <div className="overflow-x-auto scrollbar-thin">
           <table className="w-full text-sm">
             <thead>
@@ -129,8 +129,9 @@ export default function BridgeSection({ onPractice }: Props) {
           </table>
         </div>
         <p className="mt-4 text-xs leading-relaxed text-[#6f6788]">
-          交：阿、迦、娑等字两门共用。离：种子字系统多出带鼻音、送气的密教特有音节（鑁 vaṃ、纥哩 hrīḥ、吽 hūṃ、唵 oṃ）；
-          字门则多出大量二合复辅音字。两门有交有离，恰是「显密同源于梵音」的结构证据。
+          交：阿、迦、娑等字可在两类材料中对读。离：种子字另有鑁 vaṃ、纥哩 hrīḥ、吽 hūṃ、唵 oṃ 等音节；
+          字门亦有多种复辅音合字。由此可见两类传统都保存梵音字相，而各自义轨仍应分别辨明。
+          种子字的尊属与读法，各派轨本或有差别，本站所列仅作入门索引。
         </p>
       </div>
 
@@ -158,7 +159,7 @@ export default function BridgeSection({ onPractice }: Props) {
           ))}
         </div>
         <p className="mt-4 text-xs leading-relaxed text-[#6f6788]">
-          点任一轮，开其对应字门之字帖——五大种子字，本是四十二字门中字。
+          点任一轮，可查阅对应字门；其中多字亦见于四十二字门，可互相参照。
         </p>
       </div>
 

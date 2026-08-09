@@ -37,11 +37,11 @@ function StageCard({ index }: { index: number }) {
         <div className="overflow-hidden">
           <div className="px-6 sm:px-8 pb-8 pt-2 space-y-6 border-t border-[#2a2440]/70">
             <Block label="讲义 · 闻" text={s.jiangyi} />
-            <Block label="观法 · 思修" text={s.guanfa} />
+            <Block label="观学 · 思修" text={s.guanfa} />
             <Block label="行持 · 日用" text={s.xingchi} />
 
             <div>
-              <div className="text-xs tracking-[0.35em] text-gold mb-3">勘验 · 自证</div>
+              <div className="text-xs tracking-[0.35em] text-gold mb-3">返观 · 自省</div>
               <ul className="space-y-2">
                 {s.kanyan.map((k, i) => (
                   <li key={i} className="flex gap-3 text-sm leading-relaxed text-dim">
@@ -53,7 +53,7 @@ function StageCard({ index }: { index: number }) {
             </div>
 
             <div className="rounded-md bg-[#c9a227]/8 border border-[#c9a227]/25 px-5 py-4">
-              <div className="text-xs tracking-[0.35em] text-gold mb-2">了义点</div>
+              <div className="text-xs tracking-[0.35em] text-gold mb-2">阶段要义</div>
               <p className="text-sm leading-relaxed text-[#e8dfc4]">{s.liaoyi}</p>
             </div>
           </div>
@@ -80,12 +80,12 @@ export default function Stages() {
           课程次第
         </p>
         <h2 className="text-2xl sm:text-3xl tracking-[0.25em] text-[#f0e7cb]" style={{ paddingLeft: '0.25em' }}>
-          六阶 · 次第了义
+          六阶 · 观学次第
         </h2>
         <p className="mt-5 text-sm text-dim leading-loose max-w-2xl mx-auto">
-          每一阶都由「讲义 · 观法 · 行持 · 勘验」四个模块构成，阶末各有了义点。
+          本站按「讲义 · 观学 · 行持 · 自省」整理六个学习层次。
           <br />
-          次第了义的意思是：哪怕行者停在中途任何一阶，他手里已握着那一阶完整的了义，不曾被欠着。
+          这是观学提示，不是修证位阶；完成网页内容，不等于证得相应法义。
         </p>
       </header>
 
@@ -96,7 +96,7 @@ export default function Stages() {
       </div>
 
       <p className="mt-12 text-center text-xs tracking-[0.2em] text-[#6f6788] leading-loose">
-        闻一声 → 住一字 → 破诸义 → 遍全图 → 会不二 → 亡所住
+        听闻音声 → 认识字门 → 随文观义 → 借图会通 → 观照不二 → 落实日用
       </p>
     </section>
   )

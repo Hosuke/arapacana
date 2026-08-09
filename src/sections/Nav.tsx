@@ -1,12 +1,12 @@
 const links = [
   { href: '#overture', label: '序' },
-  { href: '#charter', label: '宪法' },
+  { href: '#charter', label: '总纲' },
   { href: '#paths', label: '入门' },
   { href: '#wheel', label: '字轮' },
   { href: '#bridge', label: '两门' },
   { href: '#stages', label: '六阶' },
-  { href: '#practice', label: '日课' },
-  { href: '#checklist', label: '勘验' },
+  { href: '#practice', label: '观学' },
+  { href: '#checklist', label: '自省' },
   { href: '#source', label: '法源' },
 ]
 

@@ -283,14 +283,14 @@ export default function Overture() {
             {'\u{11580}'}
           </div>
           <p className="mt-8 text-sm tracking-[0.5em] text-dim" style={{ paddingLeft: '0.5em' }}>
-            万 法 之 前 ， 先 有 此 音
+            闻 声 识 字 ， 因 字 入 义
           </p>
           <p className="mt-3 text-xs tracking-[0.3em] text-[#6f6788]">向下滚动，随此音走一遍</p>
         </Act>
 
         {/* 一 同源 */}
         <Act q={q1}>
-          <ActTitle>一 · 同源 —— 般若字门是种子字的显教前身</ActTitle>
+          <ActTitle>一 · 互参 —— 般若字门与种子字</ActTitle>
           <div className="flex items-center justify-center gap-4 sm:gap-10 max-w-4xl w-full">
             <div className="flex-1 rounded-lg border border-[#2a2440] bg-[#131022]/80 p-5 sm:p-7">
               <div className="text-xs tracking-[0.25em] text-[#9a8fbe] mb-3">般若经 · 四十二字门第一门</div>
@@ -299,7 +299,7 @@ export default function Overture() {
             </div>
             <div className="flex flex-col items-center gap-2 shrink-0" style={{ opacity: clamp01((q1 - 0.3) / 0.3) }}>
               <div className="w-10 sm:w-24 h-px bg-gradient-to-r from-[#c9a227]/20 to-[#c9a227]" />
-              <span className="text-gold text-xs tracking-[0.2em]">承接</span>
+              <span className="text-gold text-xs tracking-[0.2em]">互参</span>
             </div>
             <div
               className="flex-1 rounded-lg border border-[#c9a227]/40 bg-[#131022]/90 p-5 sm:p-7"
@@ -311,30 +311,30 @@ export default function Overture() {
             </div>
           </div>
           <p className="mt-8 max-w-xl text-sm leading-loose text-dim" style={{ opacity: clamp01((q1 - 0.55) / 0.3) }}>
-            「阿字本不生」不是密教的发明——般若四十二字门的第一门，就是《大日经》阿字观的直接前身。
-            密教把「字门」接过来，从唱诵空观，发展成观想法门。
+            般若字门与密教字观，皆以梵音字相为门。不空仪轨又明载四十二梵字布于月轮；
+            二者可相互参照，亦各有经轨与修法次第。
           </p>
         </Act>
 
         {/* 二 同构 */}
         <Act q={q2} className="!p-0">
           <div className="absolute inset-x-0 top-16 z-10">
-            <ActTitle>二 · 同构 —— 一字含摄一切</ActTitle>
+            <ActTitle>二 · 一多 —— 一字与四十二字</ActTitle>
           </div>
           <div className="w-full h-full max-h-[70vh]">
             <CanvasIsomorphism q={q2} />
           </div>
           <p className="absolute bottom-14 inset-x-6 text-sm leading-loose text-dim max-w-xl mx-auto">
             {q2 < 0.5
-              ? '一即一切：唱一个阿字时，其余四十一字的功德全在其中。'
-              : '一切即一：最微小的音声单元，当下就是圆满的整体——华严法界缘起，在音声上的体现。'}
+              ? '由一字展开：阿字居首，次第开展四十二字门。'
+              : '由多字摄归：一多相入之义，可借字轮开合观照；图示只作方便。'}
           </p>
         </Act>
 
         {/* 三 合流 */}
         <Act q={q3} className="!p-0">
           <div className="absolute inset-x-0 top-16 z-10">
-            <ActTitle>三 · 合流 —— 不空把华严字母变成密教观法</ActTitle>
+            <ActTitle>三 · 字轮 —— 不空仪轨中的四十二梵字</ActTitle>
           </div>
           <div className="w-full h-full max-h-[70vh]">
             <CanvasConfluence q={q3} />
@@ -342,13 +342,13 @@ export default function Overture() {
           <p className="absolute bottom-14 inset-x-6 text-sm leading-loose text-dim max-w-2xl mx-auto">
             {q3 < 0.55
               ? '「于月轮内，右旋布列四十二梵字，悉皆金色，放大光明。」——不空《字轮瑜伽仪轨》'
-              : '旋布之字，摄入心月轮，顿证毗卢遮那法身——从「唱出来的般若」，变成「观出来的法身」。'}
+              : '右旋布字，摄入心月，是仪轨所示观法之一；其深义与行法，当依经轨及师承教授。'}
           </p>
         </Act>
 
         {/* 四 相异 */}
         <Act q={q4}>
-          <ActTitle>四 · 相异 —— 横向遍门 ⇄ 纵向总持</ActTitle>
+          <ActTitle>四 · 分门 —— 横向遍门 ⇄ 一字总持</ActTitle>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full max-w-4xl">
             {/* 横向：四十二扇窗 */}
             <div className="rounded-lg border border-[#2a2440] bg-[#131022]/80 p-5 overflow-hidden">
@@ -369,7 +369,7 @@ export default function Overture() {
                 </div>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-dim">
-                四十二扇窗依次走过，每扇窗见同一片虚空——遍入诸门，荡相遣执（遮诠 · 扫相）。
+                四十二字门次第展开，门门依字观义，再观不可得，以离名相执著。
               </p>
             </div>
             {/* 纵向：一字深入 */}
@@ -391,7 +391,7 @@ export default function Overture() {
                 </span>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-dim">
-                盯住一字一路深入：字形→字音→字义→字亡——一字总持，即身成佛（表诠 · 立相）。
+                由字形、字音与字义渐入观照，终不住字相；密教行法另有传承次第。
               </p>
             </div>
           </div>
@@ -399,13 +399,13 @@ export default function Overture() {
             className="mt-6 max-w-xl text-sm leading-loose text-[#d6cdb2]"
             style={{ opacity: clamp01((q4 - 0.6) / 0.3) }}
           >
-            而密教观到「字亡观寂」，又回到了华严字母一路走到的那个空处——两端同归。
+            两门皆可由字入观，彼此发明；却不因此混同所依经典与修法层次。
           </p>
         </Act>
 
         {/* 五 配位 */}
         <Act q={q5}>
-          <ActTitle>五 · 配位 —— 四十二字配四十二位</ActTitle>
+          <ActTitle>五 · 配位 —— 四十二字与菩萨行位</ActTitle>
           <div className="relative w-full max-w-3xl h-[46vh]">
             {letters42.map((l, i) => {
               const t = i / 41
@@ -437,7 +437,7 @@ export default function Overture() {
             <div className="absolute right-0 top-[4%] text-[10px] tracking-[0.3em] text-gold">妙觉佛果</div>
           </div>
           <p className="mt-4 max-w-xl text-sm leading-loose text-dim">
-            唱一字如历一位——从初发心一路唱到妙觉，一部字母，就是一趟完整的成佛之旅。
+            古德有以四十二字配菩萨行位之说，借字门次第提示修学次第；配位是观学方便，不等同证得行位。
           </p>
         </Act>
 
@@ -455,14 +455,14 @@ export default function Overture() {
           </div>
           <div style={{ opacity: clamp01((q6 - 0.25) / 0.35) }}>
             <p className="mt-10 max-w-2xl text-base sm:text-lg leading-loose text-[#e8dfc4]">
-              华严字母，是以全部梵音铺开的般若空观；
+              华严字门以多字开示般若；
               <br />
-              密教种子字，是以一枚梵音收拢的法身总持。
+              密教种子字以一字总摄法义。
             </p>
             <p className="mt-5 max-w-2xl text-sm leading-loose text-dim">
-              一个把法界摊成四十二门让你走进来，一个把法界凝成一字让你观进去——
+              二者皆以梵音字相为门，可相互参照；
               <br />
-              而走进、观进去的，是同一个地方：<span className="text-gold">诸法本不生</span>。
+              所依经轨、教相与修法，仍须<span className="text-gold">分别明了</span>。
             </p>
             <div className="mt-12 flex flex-wrap justify-center gap-4">
               <a
@@ -477,7 +477,7 @@ export default function Overture() {
                 className="rounded-full border border-[#2a2440] px-8 py-3 text-sm tracking-[0.3em] text-dim hover:border-[#c9a227]/40 hover:text-gold transition-colors"
                 style={{ paddingLeft: 'calc(2rem + 0.3em)' }}
               >
-                直入日课
+                直入观学
               </a>
             </div>
           </div>

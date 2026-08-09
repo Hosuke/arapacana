@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import MoonDisc from './MoonDisc'
 import type { Letter42 } from '@/data/letters42'
 import type { SeedSyllable } from '@/data/seeds'
+import provenance from '@/data/letters42.provenance.json'
 
 export interface DossierData {
   kind: 'letter' | 'seed'
@@ -51,6 +52,10 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
   const han = isLetter ? L!.han : S!.han
   const iast = isLetter ? L!.iast : S!.iast
   const encoded = isLetter ? `l:${L!.n}` : `s:${S!.iast}`
+  const evidence = isLetter ? provenance.letters[L!.n - 1] : null
+  const seedWheelEvidence = data.seedWheelLetter
+    ? provenance.letters[data.seedWheelLetter.n - 1]
+    : null
 
   return (
     <div
@@ -76,7 +81,7 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
           <span className="font-siddham text-7xl leading-none text-[#f0e7cb]">{siddham}</span>
           <div className="flex flex-col gap-1.5">
             <span className="font-latin text-2xl text-gold italic">{iast}</span>
-            <span className="text-sm text-dim">汉字注音：{han}</span>
+            <span className="text-sm text-dim">《华严经》汉字注音：{han}</span>
           </div>
         </div>
 
@@ -84,7 +89,7 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
           {isLetter ? (
             <>
               <Tag>四十二字门 · 第 {L!.n} 字</Tag>
-              <Tag>{L!.type}</Tag>
+              <Tag>{L!.form}</Tag>
               {L!.manjusri && <Tag>文殊五字之一</Tag>}
             </>
           ) : (
@@ -99,20 +104,22 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
         <div className="px-8 py-6 space-y-8">
           {/* 表法 */}
           <section>
-            <BlockTitle>表法 · 字形真形</BlockTitle>
+            <BlockTitle>表法 · 月轮字相</BlockTitle>
             <div className="flex items-center gap-6">
               <MoonDisc size={150} glyph={siddham} />
               <div className="text-sm leading-loose text-dim flex-1">
                 {isLetter ? (
                   <>
-                    月轮中所现金色此字，即此门之法曼荼罗——
-                    {L!.type === '一合' ? '单音成字。' : `${L!.type}合字，梵音复辅，览字形自见。`}
-                    {L!.seed && <span className="block mt-2 text-[#e8dfc4]">种子身份：{L!.seed}</span>}
+                    月轮字相取自本站悉昙字形表——
+                    {L!.form === '单字'
+                      ? '此处为单字字形。'
+                      : '此处为悉昙合字，由两个辅音字母相合；汉字注音字数并不等同字形构造。'}
+                    {L!.seed && <span className="block mt-2 text-[#e8dfc4]">相关字音参照：{L!.seed}</span>}
                   </>
                 ) : (
                   <>
-                    {S!.deity}之法曼荼罗真形。尊是功德之函数，此字即其真形——
-                    一字含摄万德，如种子含大树。
+                    {S!.deity}法曼荼罗所用字相。此字总摄所表功德，
+                    譬如种子含树。
                   </>
                 )}
               </div>
@@ -121,16 +128,54 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
 
           {/* 表意 */}
           <section>
-            <BlockTitle>表意 · 此字何所说</BlockTitle>
+            <BlockTitle>法义 · 经文与不空本</BlockTitle>
             {isLetter ? (
               <div className="space-y-3">
                 <p className="text-sm leading-loose text-[#e8dfc4]">
                   「唱{han}字时，入般若波罗蜜门，名<strong className="text-gold font-normal">{L!.gate}</strong>。」
-                  <span className="block mt-1 text-xs text-[#6f6788]">——《华严经·入法界品》</span>
+                  <a
+                    href={provenance.sources.T10n0279.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-xs text-[#8d82ad] underline decoration-[#4a4264] underline-offset-4 hover:text-gold"
+                  >
+                    ——《八十华严》卷七十六，{evidence!.gateEvidence.loc}
+                  </a>
                 </p>
                 <p className="text-sm leading-loose text-dim">
-                  遮诠之悟：{L!.meaning}。凡以为实者，于此字下不可得。
+                  不空本释义：{L!.meaning}。此句据不空译《四十二字观门》，不是《八十华严》门名原句；“不可得”不作断灭解。
                 </p>
+                <details className="rounded-lg border border-[#302943] bg-[#0d0b17]/55 px-4 py-3 text-xs text-dim">
+                  <summary className="cursor-pointer select-none tracking-[0.18em] text-[#b8accf] hover:text-gold">
+                    逐字校勘依据
+                  </summary>
+                  <div className="mt-4 space-y-3 leading-relaxed">
+                    <p>
+                      <span className="text-[#d7cba9]">门名底本：</span>
+                      <a href={provenance.sources.T10n0279.url} target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-gold">
+                        {provenance.sources.T10n0279.ref}
+                      </a>
+                      ，本字 {evidence!.gateEvidence.loc}。
+                    </p>
+                    <p>
+                      <span className="text-[#d7cba9]">悉昙、IAST与释义底本：</span>
+                      <a href={provenance.sources.T19n1019.url} target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-gold">
+                        {provenance.sources.T19n1019.ref}
+                      </a>
+                      ，本字 {evidence!.interpretationEvidence.loc}。
+                    </p>
+                    <blockquote className="border-l border-[#5e5278] pl-3 text-[#a99ebd]">
+                      CBETA原文：{evidence!.interpretationEvidence.quoteZhHant}
+                    </blockquote>
+                    <p>
+                      <span className="text-[#d7cba9]">字形码位：</span>
+                      {evidence!.glyphEvidence.codepoints.join(' + ')}；{evidence!.glyphEvidence.form}。
+                    </p>
+                    {evidence!.variantNotes.map((note) => (
+                      <p key={note} className="text-[#c9b884]">校注：{note}</p>
+                    ))}
+                  </div>
+                </details>
               </div>
             ) : (
               <div className="space-y-3">
@@ -138,30 +183,35 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
                 {data.seedWheelLetter && (
                   <p className="text-sm leading-loose text-dim">
                     此字亦在四十二字门中，为第 {data.seedWheelLetter.n} 字——
-                    入般若波罗蜜门，名「{data.seedWheelLetter.gate}」；遮诠之悟：{data.seedWheelLetter.meaning}。
-                    <span className="block mt-1 text-xs text-[#6f6788]">一门之音，显密两用。</span>
+                    入般若波罗蜜门，名「{data.seedWheelLetter.gate}」；不空本释义：{data.seedWheelLetter.meaning}。
+                    <span className="block mt-1 text-xs text-[#6f6788]">相同字音可在两类材料中对读；所依法义仍须分明。</span>
+                    {seedWheelEvidence && (
+                      <a href={provenance.sources.T19n1019.url} target="_blank" rel="noreferrer" className="block mt-1 text-xs text-[#8d82ad] underline underline-offset-4 hover:text-gold">
+                        校勘：{seedWheelEvidence.interpretationEvidence.loc}
+                      </a>
+                    )}
                   </p>
                 )}
               </div>
             )}
           </section>
 
-          {/* 观法 */}
+          {/* 观学 */}
           <section>
-            <BlockTitle>观法 · 以此字入观</BlockTitle>
+            <BlockTitle>{isLetter ? '观学 · 由字入义' : '导读 · 识字查源'}</BlockTitle>
             {isLetter ? (
               <ol className="space-y-3 text-sm leading-loose text-dim list-none">
-                <li><span className="text-gold mr-2">一 · 入座</span>安身静心，目前悬一月轮，白如满月。</li>
-                <li><span className="text-gold mr-2">二 · 持字</span>月中现金色此字（{iast}），口持其音，声住于字，字住于心；心走失了，看见，回来。</li>
-                <li><span className="text-gold mr-2">三 · 观义</span>观「{L!.meaning}」——字所遮处，正是心歇处；不寻答案，只住在问里。</li>
-                <li><span className="text-gold mr-2">四 · 字亡</span>字形渐泯，光收于月，月收于空。住于无言，是为字亡观寂。</li>
+                <li><span className="text-gold mr-2">一 · 识字</span>辨认悉昙字形、IAST 转写与汉字注音，三者不可混同。</li>
+                <li><span className="text-gold mr-2">二 · 读经</span>读《华严经》所列般若波罗蜜门名，先守经文原义。</li>
+                <li><span className="text-gold mr-2">三 · 观义</span>读不空本「{L!.meaning}」之释，返观名相与执著；不可得不作断灭解。</li>
+                <li><span className="text-gold mr-2">四 · 日用</span>所学若能增益慈悲、明辨与负责的行动，方见闻思受用。</li>
               </ol>
             ) : (
               <ol className="space-y-3 text-sm leading-loose text-dim list-none">
-                <li><span className="text-gold mr-2">一 · 入座</span>安身静心，观自心为月轮，本净无垢。</li>
-                <li><span className="text-gold mr-2">二 · 现字</span>月轮之中，现金色此字（{iast}）——{S!.deity}之德，于此一字具足。</li>
-                <li><span className="text-gold mr-2">三 · 放光</span>字放无量光，遍照十方：{S!.meaning}。光所至处，众生同沾。</li>
-                <li><span className="text-gold mr-2">四 · 摄归</span>光与字收摄，融入自心——字之德即心之德，无二无别。终则字亡观寂。</li>
+                <li><span className="text-gold mr-2">一 · 识字</span>辨认此字（{iast}）的悉昙字形、转写与汉字注音。</li>
+                <li><span className="text-gold mr-2">二 · 读义</span>了解{S!.deity}与本站所列功德义：{S!.meaning}。</li>
+                <li><span className="text-gold mr-2">三 · 查源</span>种子字的尊属、读法与观法，各轨本或有差别；须回到相应仪轨与传承。</li>
+                <li><span className="text-gold mr-2">四 · 守界</span>未受相关教授者，以字相辨识与法义闻思为限；有师承者依师授修学。</li>
               </ol>
             )}
           </section>
@@ -177,9 +227,9 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
             className="rounded-full border border-[#c9a227]/60 bg-[#c9a227]/10 px-7 py-2.5 text-sm tracking-[0.3em] text-gold hover:bg-[#c9a227]/20 transition-colors"
             style={{ paddingLeft: 'calc(1.75rem + 0.3em)' }}
           >
-            以此字入观 · 一座十五分
+            {isLetter ? '随此字观学 · 十五分' : '随此字闻思 · 十五分'}
           </button>
-          <span className="text-xs text-[#6f6788] leading-relaxed">携此字往日课，月轮自现此字</span>
+          <span className="text-xs text-[#6f6788] leading-relaxed">进入十五分钟闻思；页面展示不等同密法传授</span>
         </div>
       </div>
     </div>

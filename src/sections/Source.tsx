@@ -8,7 +8,7 @@ export default function Source() {
           法源与仪轨
         </p>
         <h2 className="text-2xl sm:text-3xl tracking-[0.25em] text-[#f0e7cb]" style={{ paddingLeft: '0.25em' }}>
-          次第所依 · 仪轨勘定
+          经论所据 · 文献出处
         </h2>
       </header>
 
@@ -17,6 +17,14 @@ export default function Source() {
           <article key={s.title} className="rounded-lg border border-[#2a2440] bg-[#131022]/80 p-6">
             <h3 className="text-base tracking-[0.15em] text-[#e8dfc4] mb-3">{s.title}</h3>
             <p className="text-sm leading-loose text-dim">{s.body}</p>
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block mt-4 text-xs leading-relaxed text-gold/75 hover:text-gold border-b border-[#c9a227]/25 hover:border-[#c9a227]"
+            >
+              {s.ref} ↗
+            </a>
           </article>
         ))}
       </div>
@@ -24,16 +32,17 @@ export default function Source() {
       <div className="rounded-lg border border-[#c9a227]/25 bg-[#c9a227]/6 p-7">
         <h3 className="text-sm tracking-[0.35em] text-gold mb-4">如法的边界</h3>
         <p className="text-sm leading-loose text-[#d6cdb2]">
-          本课程的观行次第，由出家师承依弘法大师空海所传仪轨文献勘定：
-          去除的是尊像膜拜与人身依止，不去的是观行本身的结构——
-          月轮、种子字、五相成身、字门遮诠、上转下转，皆如经如轨。
-          敬其法，故不媚其像；重其传，故不巫其人。
+          本站文案依下列经论及公开仪轨整理，只作字相辨识、法义导读与观学辅助；
+          不称传法，不授灌顶，不替代皈依、戒法、口授及具德善知识。
+          月轮、种子字、五相成身、上转下转等各有传承语境：有师承者依师教，
+          未受相关教授者宜以闻思与字相学习为限。礼敬尊像、亲近善知识自有其法义；
+          本站只避免以个人崇拜代替依法修学，并不否定礼敬与依止。
         </p>
       </div>
 
       <div className="mt-10 text-center">
         <p className="text-xs tracking-[0.2em] text-[#6f6788] leading-loose">
-          观法之图，可参「金胎不二 · 两部曼荼罗引擎」——一图两投影，结构即教义
+          相关图示可参「金胎不二 · 两部曼荼罗」。图示仅供学习，不以图式代替教义
         </p>
         <a
           href="https://github.com/hosuke/mandala"

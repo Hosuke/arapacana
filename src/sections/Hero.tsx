@@ -29,29 +29,29 @@ export default function Hero() {
       </p>
 
       <p className="fade-up mt-2 text-xs tracking-[0.25em] text-[#6f6788]" style={{ animationDelay: '0.42s' }}>
-        四十二字门之前五字 · 即文殊五字真言 · 梵名 Arapacana
+        四十二字门之前五字 · 与文殊五字真言音序相应 · Arapacana
       </p>
 
       <p
         className="fade-up mt-5 text-sm sm:text-base tracking-[0.3em] text-gold"
         style={{ animationDelay: '0.5s', paddingLeft: '0.3em' }}
       >
-        华严字母 × 诸尊种子字 · 去人格化的观行课程
+        华严字母 × 诸尊种子字 · 字相与法义导读
       </p>
 
       <div className="fade-up gold-rule w-56 my-8" style={{ animationDelay: '0.6s' }} />
 
       <p className="fade-up max-w-xl leading-loose text-[15px] text-dim" style={{ animationDelay: '0.7s' }}>
-        不拜尊像，不依上师。以一声入门，以一字安住，
+        敬法重传，不执名相。以一声摄心，以一字观义，
         <br className="hidden sm:block" />
-        以六阶次第，至于无字——让众生在法上安住，即可。
+        循六阶提示，于日用中返观身心。
       </p>
 
       <p
         className="fade-up mt-10 font-latin italic text-sm text-[#6f6788]"
         style={{ animationDelay: '0.85s' }}
       >
-        「绢本曼荼罗是投影，不是结构。」
+        「图示但为方便，不可执图为法界本身。」
       </p>
 
       <a

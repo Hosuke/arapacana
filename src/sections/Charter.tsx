@@ -8,12 +8,12 @@ export default function Charter() {
           立课总纲
         </p>
         <h2 className="text-2xl sm:text-3xl tracking-[0.25em] text-[#f0e7cb]" style={{ paddingLeft: '0.25em' }}>
-          三条宪法
+          三项说明
         </h2>
         <p className="mt-5 text-sm text-dim leading-relaxed">
-          课程的第一页不写任何尊名，只写这三条。它们替代了传统的「皈依—灌顶—三昧耶戒」：
+          以下是本站的使用边界，不是皈依、灌顶、戒法或师承的替代。
           <br />
-          准入资格不是灌顶，而是理解并同意这三条。
+          若所学涉及传承仪轨，应依具德善知识指导。
         </p>
       </header>
 

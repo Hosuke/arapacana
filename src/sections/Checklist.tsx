@@ -23,15 +23,15 @@ export default function Checklist() {
     <section id="checklist" className="max-w-4xl mx-auto px-6 py-24">
       <header className="text-center mb-12">
         <p className="text-xs tracking-[0.5em] text-gold mb-4" style={{ paddingLeft: '0.5em' }}>
-          自勘清单
+          自省清单
         </p>
         <h2 className="text-2xl sm:text-3xl tracking-[0.25em] text-[#f0e7cb]" style={{ paddingLeft: '0.25em' }}>
-          勘验 · 权在行者
+          返观 · 不判证量
         </h2>
         <p className="mt-5 text-sm text-dim leading-loose max-w-2xl mx-auto">
-          勾满不判「通过」，程序只给一句建议：再行一周，或可进一阶。
+          各项只供自省，不判「通过」，也不据此决定修证阶位。
           <br />
-          判定在法，不在程序，更不在人。记录仅存于此浏览器。
+          记录仅存于此浏览器；有师承者仍依师教，身心不适时宜暂停练习。
         </p>
       </header>
 
@@ -93,7 +93,7 @@ export default function Checklist() {
 
               {pct === 1 && (
                 <p className="mt-5 text-xs tracking-[0.25em] text-gold/80">
-                  诸项已勘 · 建议：再行一周，或可进一阶
+                  诸项已有记录 · 可续修此阶，或请教善知识
                 </p>
               )}
             </div>

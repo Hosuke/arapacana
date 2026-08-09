@@ -1,0 +1,1641 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "hanAndGate": "T10 No.279《大方广佛华严经》卷七十六",
+    "siddhamIastAndMeaning": "T19 No.1019不空译《大方广佛华严经入法界品四十二字观门》",
+    "meaningLabel": "不空本释义；非《八十华严》门名原句",
+    "formRule": "悉昙Unicode串含U+115BF VIRAMA者记为合字；不按汉译字数判断"
+  },
+  "sources": {
+    "T10n0279": {
+      "title": "《大方广佛华严经》卷七十六·善知众艺童子",
+      "ref": "CBETA T10, no.279, p.418a08–c02",
+      "url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T10/T10n0279.xml#L37859-L37913"
+    },
+    "T19n1019": {
+      "title": "不空译《大方广佛华严经入法界品四十二字观门》",
+      "ref": "CBETA T19, no.1019, p.707c21–709a11",
+      "url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T19/T19n1019.xml#L774-L872"
+    }
+  },
+  "letters": [
+    {
+      "n": 1,
+      "site": {
+        "han": "阿",
+        "iast": "a",
+        "gate": "以菩萨威力入无差别境界",
+        "meaning": "一切法本不生",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a09",
+        "normalizedExcerptZhHans": "唱阿字时，入般若波罗蜜门，名：以菩萨威力入无差别境界"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0707c21–0707c22",
+        "cbetaCharacterId": "SD-CFC5",
+        "hanSourceZhHant": "阿",
+        "iast": "a",
+        "meaningZhHant": "一切法本不生",
+        "meaningZhHans": "一切法本不生",
+        "quoteZhHant": "阿上字時，名由菩薩威德入無差別境界般若波羅蜜門，悟一切法本不生故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11580"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER A"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 2,
+      "site": {
+        "han": "多",
+        "iast": "ra",
+        "gate": "无边差别门",
+        "meaning": "一切法离尘垢",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a10",
+        "normalizedExcerptZhHans": "唱多字时，入般若波罗蜜门，名：无边差别门"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0707c23–0707c24",
+        "cbetaCharacterId": "SD-A5FD",
+        "hanSourceZhHant": "囉",
+        "iast": "ra",
+        "meaningZhHant": "一切法離塵垢",
+        "meaningZhHans": "一切法离尘垢",
+        "quoteZhHant": "囉字時，入無邊際差別般若波羅蜜門，悟一切法離塵垢故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A8"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER RA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“多”，不空本作“啰”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 3,
+      "site": {
+        "han": "波",
+        "iast": "pa",
+        "gate": "普照法界",
+        "meaning": "一切法胜义谛不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0010a22",
+        "normalizedExcerptZhHans": "唱波字时，入般若波罗蜜门，名：普照法界"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0707c25–0707c26",
+        "cbetaCharacterId": "SD-A5B5",
+        "hanSourceZhHant": "跛",
+        "iast": "pa",
+        "meaningZhHant": "一切法勝義諦不可得",
+        "meaningZhHans": "一切法胜义谛不可得",
+        "quoteZhHant": "跛字時，入法界際般若波羅蜜門，悟一切法勝義諦不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A2"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER PA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“波”，不空本作“跛”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 4,
+      "site": {
+        "han": "者",
+        "iast": "ca",
+        "gate": "普轮断差别",
+        "meaning": "一切法无诸行",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a12",
+        "normalizedExcerptZhHans": "唱者字时，入般若波罗蜜门，名：普轮断差别"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0707c27–0707c28",
+        "cbetaCharacterId": "SD-A47C",
+        "hanSourceZhHant": "左",
+        "iast": "ca",
+        "meaningZhHant": "一切法無諸行",
+        "meaningZhHans": "一切法无诸行",
+        "quoteZhHant": "左輕呼字時，入普輪斷差別般若波羅蜜門，悟一切法無諸行故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11593"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER CA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“者”，不空本作“左”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 5,
+      "site": {
+        "han": "那",
+        "iast": "na",
+        "gate": "得无依无上",
+        "meaning": "一切法性相不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a13",
+        "normalizedExcerptZhHans": "唱那字时，入般若波罗蜜门，名：得无依无上"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0707c29–0708a01",
+        "cbetaCharacterId": "SD-A5A9",
+        "hanSourceZhHant": "曩",
+        "iast": "na",
+        "meaningZhHant": "一切法性相不可得",
+        "meaningZhHans": "一切法性相不可得",
+        "quoteZhHant": "曩舌頭呼字時，入無阿賴耶際般若波羅蜜門，悟一切法性相不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A1"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER NA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“那”，不空本作“曩”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 6,
+      "site": {
+        "han": "逻",
+        "iast": "la",
+        "gate": "离依止无垢",
+        "meaning": "一切法出世间故，爱支因缘永不现",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a14",
+        "normalizedExcerptZhHans": "唱逻字时，入般若波罗蜜门，名：离依止无垢"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a02–0708a03",
+        "cbetaCharacterId": "SD-A64A",
+        "hanSourceZhHant": "攞",
+        "iast": "la",
+        "meaningZhHant": "一切法出世間故，愛支因緣永不現",
+        "meaningZhHans": "一切法出世间故，爱支因缘永不现",
+        "quoteZhHant": "攞字時，入無垢般若波羅蜜門，悟一切法出世間故，愛支因緣永不現故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A9"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER LA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“逻”，不空本作“攞”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 7,
+      "site": {
+        "han": "柁",
+        "iast": "da",
+        "gate": "不退转方便",
+        "meaning": "一切法调伏寂静真如平等无分别",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a15–0418a16",
+        "normalizedExcerptZhHans": "唱柁字时，入般若波罗蜜门，名：不退转方便"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a04–0708a05",
+        "cbetaCharacterId": "SD-A56F",
+        "hanSourceZhHant": "娜",
+        "iast": "da",
+        "meaningZhHant": "一切法調伏寂靜真如平等無分別",
+        "meaningZhHans": "一切法调伏寂静真如平等无分别",
+        "quoteZhHant": "娜字時，入不退轉加行般若波羅蜜門，悟一切法調伏寂靜真如平等無分別故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159F"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER DA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“柁”，不空本作“娜”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 8,
+      "site": {
+        "han": "婆",
+        "iast": "ba",
+        "gate": "金刚场",
+        "meaning": "一切法离缚解",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a17",
+        "normalizedExcerptZhHans": "唱婆字时，入般若波罗蜜门，名：金刚场"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a06–0708a07",
+        "cbetaCharacterId": "SD-A5CD",
+        "hanSourceZhHant": "麼",
+        "iast": "ba",
+        "meaningZhHant": "一切法離縛解",
+        "meaningZhHans": "一切法离缚解",
+        "quoteZhHant": "麼字時，入金剛場般若波羅蜜門，悟一切法離縛解故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A4"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER BA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“婆”，不空本作“么”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 9,
+      "site": {
+        "han": "荼",
+        "iast": "ḍa",
+        "gate": "普轮",
+        "meaning": "一切法离热矫秽得清凉",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a12",
+        "normalizedExcerptZhHans": "唱荼字时，入般若波罗蜜门，名：普轮"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a08–0708a09",
+        "cbetaCharacterId": "SD-A4F2",
+        "hanSourceZhHant": "拏",
+        "iast": "ḍa",
+        "meaningZhHant": "一切法離熱矯穢得清凉",
+        "meaningZhHans": "一切法离热矫秽得清凉",
+        "quoteZhHant": "拏上字時，入普遍輪般若波羅蜜門，悟一切法離熱矯穢得清凉故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159A"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER DDA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“荼”，不空本作“拏”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 10,
+      "site": {
+        "han": "沙",
+        "iast": "ṣa",
+        "gate": "海藏",
+        "meaning": "一切法无罣碍",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0018b02",
+        "normalizedExcerptZhHans": "唱沙字时，入般若波罗蜜门，名：海藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a10–0708a11",
+        "cbetaCharacterId": "SD-A66E",
+        "hanSourceZhHant": "灑",
+        "iast": "ṣa",
+        "meaningZhHant": "一切法無罣礙",
+        "meaningZhHans": "一切法无罣碍",
+        "quoteZhHant": "灑字時，入海藏般若波羅蜜門，悟一切法無罣礙故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AC"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SSA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“沙”，不空本作“洒”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 11,
+      "site": {
+        "han": "嚩",
+        "iast": "va",
+        "gate": "普生安住",
+        "meaning": "一切法言语道断",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a20",
+        "normalizedExcerptZhHans": "唱嚩字时，入般若波罗蜜门，名：普生安住"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a12–0708a13",
+        "cbetaCharacterId": "SD-A656",
+        "hanSourceZhHant": "嚩",
+        "iast": "va",
+        "meaningZhHant": "一切法言語道斷",
+        "meaningZhHans": "一切法言语道断",
+        "quoteZhHant": "嚩字時，入普遍生安住般若波羅蜜門，悟一切法言語道斷故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AA"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER VA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 12,
+      "site": {
+        "han": "哆",
+        "iast": "ta",
+        "gate": "圆满光",
+        "meaning": "一切法真如不动",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0002a04",
+        "normalizedExcerptZhHans": "唱哆字时，入般若波罗蜜门，名：圆满光"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a14–0708a15",
+        "cbetaCharacterId": "SD-A557",
+        "hanSourceZhHant": "多",
+        "iast": "ta",
+        "meaningZhHant": "一切法真如不動",
+        "meaningZhHans": "一切法真如不动",
+        "quoteZhHant": "多上字時，入照曜塵垢般若波羅蜜門，悟一切法真如不動故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159D"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER TA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“哆”，不空本作“多”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 13,
+      "site": {
+        "han": "也",
+        "iast": "ya",
+        "gate": "差别积聚",
+        "meaning": "一切法如实不生",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a22",
+        "normalizedExcerptZhHans": "唱也字时，入般若波罗蜜门，名：差别积聚"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a16–0708a17",
+        "cbetaCharacterId": "SD-A5F1",
+        "hanSourceZhHant": "野",
+        "iast": "ya",
+        "meaningZhHant": "一切法如實不生",
+        "meaningZhHans": "一切法如实不生",
+        "quoteZhHant": "野字時，入差別積聚般若波羅蜜門，悟一切法如實不生故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A7"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER YA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“也”，不空本作“野”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 14,
+      "site": {
+        "han": "瑟吒",
+        "iast": "ṣṭa",
+        "gate": "普光明息烦恼",
+        "meaning": "一切法制伏任持相不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a23",
+        "normalizedExcerptZhHans": "唱瑟吒字时，入般若波罗蜜门，名：普光明息烦恼"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a18–0708a20",
+        "cbetaCharacterId": "SD-CD4B",
+        "hanSourceZhHant": "瑟吒",
+        "iast": "ṣṭa",
+        "meaningZhHant": "一切法制伏任持相不可得",
+        "meaningZhHans": "一切法制伏任持相不可得",
+        "quoteZhHant": "瑟吒二合上字時，入普遍光明息除熱惱般若波羅蜜門，悟一切法制伏任持相不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AC",
+          "U+115BF",
+          "U+11598"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SSA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER TTA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“瑟吒”，不空本作“瑟咤”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 15,
+      "site": {
+        "han": "迦",
+        "iast": "ka",
+        "gate": "无差别云",
+        "meaning": "一切法作者不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0252c08",
+        "normalizedExcerptZhHans": "唱迦字时，入般若波罗蜜门，名：无差别云"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a21–0708a22",
+        "cbetaCharacterId": "SD-A440",
+        "hanSourceZhHant": "迦",
+        "iast": "ka",
+        "meaningZhHant": "一切法作者不可得",
+        "meaningZhHans": "一切法作者不可得",
+        "quoteZhHant": "迦上字時，入差別種類般若波羅蜜門，悟一切法作者不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1158E"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER KA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 16,
+      "site": {
+        "han": "娑",
+        "iast": "sa",
+        "gate": "降霔大雨",
+        "meaning": "一切法时平等性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0228a16",
+        "normalizedExcerptZhHans": "唱娑字时，入般若波罗蜜门，名：降霔大雨"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a23–0708a24",
+        "cbetaCharacterId": "SD-A67A",
+        "hanSourceZhHant": "娑",
+        "iast": "sa",
+        "meaningZhHant": "一切法時平等性不可得",
+        "meaningZhHans": "一切法时平等性不可得",
+        "quoteZhHant": "娑上字時，入現前降霔大雨般若波羅蜜門，悟一切法時平等性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AD"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 17,
+      "site": {
+        "han": "么",
+        "iast": "ma",
+        "gate": "大流湍激众峰齐峙",
+        "meaning": "一切法我所执性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a26",
+        "normalizedExcerptZhHans": "唱么字时，入般若波罗蜜门，名：大流湍激众峰齐峙"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a25–0708a26",
+        "cbetaCharacterId": "SD-A5E5",
+        "hanSourceZhHant": "莽",
+        "iast": "ma",
+        "meaningZhHant": "一切法我所執性不可得",
+        "meaningZhHans": "一切法我所执性不可得",
+        "quoteZhHant": "莽輕呼字時，入大迅疾眾峯般若波羅蜜門，悟一切法我所執性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A6"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER MA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“么”，不空本作“莽”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 18,
+      "site": {
+        "han": "伽",
+        "iast": "ga",
+        "gate": "普安立",
+        "meaning": "一切法行取性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a27",
+        "normalizedExcerptZhHans": "唱伽字时，入般若波罗蜜门，名：普安立"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a27–0708a28",
+        "cbetaCharacterId": "SD-A458",
+        "hanSourceZhHant": "誐",
+        "iast": "ga",
+        "meaningZhHant": "一切法行取性不可得",
+        "meaningZhHans": "一切法行取性不可得",
+        "quoteZhHant": "誐字時，入普遍輪長養般若波羅蜜門，悟一切法行取性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11590"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER GA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“伽”，不空本作“誐”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 19,
+      "site": {
+        "han": "他",
+        "iast": "tha",
+        "gate": "真如平等藏",
+        "meaning": "一切法处所不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a28",
+        "normalizedExcerptZhHans": "唱他字时，入般若波罗蜜门，名：真如平等藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708a29–0708b01",
+        "cbetaCharacterId": "SD-A563",
+        "hanSourceZhHant": "他",
+        "iast": "tha",
+        "meaningZhHant": "一切法處所不可得",
+        "meaningZhHans": "一切法处所不可得",
+        "quoteZhHant": "他上字時，入真如無差別般若波羅蜜門，悟一切法處所不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159E"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER THA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 20,
+      "site": {
+        "han": "社",
+        "iast": "ja",
+        "gate": "入世间海清净",
+        "meaning": "一切法能所生起不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418a29",
+        "normalizedExcerptZhHans": "唱社字时，入般若波罗蜜门，名：入世间海清净"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b02–0708b03",
+        "cbetaCharacterId": "SD-A4B6",
+        "hanSourceZhHant": "惹",
+        "iast": "ja",
+        "meaningZhHant": "一切法能所生起不可得",
+        "meaningZhHans": "一切法能所生起不可得",
+        "quoteZhHant": "惹字時，入世間流轉窮源清淨般若波羅蜜門，悟一切法能所生起不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11595"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER JA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“社”，不空本作“惹”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 21,
+      "site": {
+        "han": "锁",
+        "iast": "sva",
+        "gate": "念一切佛庄严",
+        "meaning": "一切法安隐性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b01",
+        "normalizedExcerptZhHans": "唱锁字时，入般若波罗蜜门，名：念一切佛庄严"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b04–0708b05",
+        "cbetaCharacterId": "SD-B064",
+        "hanSourceZhHant": "娑嚩",
+        "iast": "sva",
+        "meaningZhHant": "一切法安隱性不可得",
+        "meaningZhHans": "一切法安隐性不可得",
+        "quoteZhHant": "娑嚩二合字時，入念一切佛莊嚴般若波羅蜜門，悟一切法安隱性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AD",
+          "U+115BF",
+          "U+115AA"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER VA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“锁”，不空本作“娑嚩”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 22,
+      "site": {
+        "han": "驮",
+        "iast": "dha",
+        "gate": "观察拣择一切法聚",
+        "meaning": "一切法能持界性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b02–0418b03",
+        "normalizedExcerptZhHans": "唱驮字时，入般若波罗蜜门，名：观察拣择一切法聚"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b06–0708b07",
+        "cbetaCharacterId": "SD-A57B",
+        "hanSourceZhHant": "馱",
+        "iast": "dha",
+        "meaningZhHant": "一切法能持界性不可得",
+        "meaningZhHans": "一切法能持界性不可得",
+        "quoteZhHant": "馱字時，入觀察法界道場般若波羅蜜門，悟一切法能持界性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A0"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER DHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 23,
+      "site": {
+        "han": "奢",
+        "iast": "śa",
+        "gate": "随顺一切佛教轮光明",
+        "meaning": "一切法寂静性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b03–0418b04",
+        "normalizedExcerptZhHans": "唱奢字时，入般若波罗蜜门，名：随顺一切佛教轮光明"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b08–0708b09",
+        "cbetaCharacterId": "SD-A662",
+        "hanSourceZhHant": "捨",
+        "iast": "śa",
+        "meaningZhHant": "一切法寂靜性不可得",
+        "meaningZhHans": "一切法寂静性不可得",
+        "quoteZhHant": "捨字時，入隨順一切佛教般若波羅蜜門，悟一切法寂靜性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AB"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“奢”，不空本作“舍”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 24,
+      "site": {
+        "han": "佉",
+        "iast": "kha",
+        "gate": "修因地智慧藏",
+        "meaning": "一切法如虚空性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b05",
+        "normalizedExcerptZhHans": "唱佉字时，入般若波罗蜜门，名：修因地智慧藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b10–0708b11",
+        "cbetaCharacterId": "SD-A44C",
+        "hanSourceZhHant": "佉",
+        "iast": "kha",
+        "meaningZhHant": "一切法如虛空性不可得",
+        "meaningZhHans": "一切法如虚空性不可得",
+        "quoteZhHant": "佉上字時，入現行因地智慧藏般若波羅蜜門，悟一切法如虛空性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1158F"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER KHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 25,
+      "site": {
+        "han": "叉",
+        "iast": "kṣa",
+        "gate": "息诸业海藏",
+        "meaning": "一切法穷尽性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b06",
+        "normalizedExcerptZhHans": "唱叉字时，入般若波罗蜜门，名：息诸业海藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b12–0708b13",
+        "cbetaCharacterId": "SD-A6B4",
+        "hanSourceZhHant": "訖灑",
+        "iast": "kṣa",
+        "meaningZhHant": "一切法窮盡性不可得",
+        "meaningZhHans": "一切法穷尽性不可得",
+        "quoteZhHant": "訖灑二合字時，入決擇息諸業海藏般若波羅蜜門，悟一切法窮盡性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1158E",
+          "U+115BF",
+          "U+115AC"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER KA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER SSA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“叉”，不空本作“讫洒”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 26,
+      "site": {
+        "han": "娑多",
+        "iast": "sta",
+        "gate": "蠲诸惑障开净光明",
+        "meaning": "一切法住持处非处令不动转性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b07",
+        "normalizedExcerptZhHans": "唱娑多字时，入般若波罗蜜门，名：蠲诸惑障开净光明"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b14–0708b16",
+        "cbetaCharacterId": "SD-CDA9",
+        "hanSourceZhHant": "娑多",
+        "iast": "sta",
+        "meaningZhHant": "一切法住持處非處令不動轉性不可得",
+        "meaningZhHans": "一切法住持处非处令不动转性不可得",
+        "quoteZhHant": "娑多二合上字時，入摧諸煩惱清淨光明般若波羅蜜門，悟一切法住持處非處令不動轉性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AD",
+          "U+115BF",
+          "U+1159D"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER TA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 27,
+      "site": {
+        "han": "壤",
+        "iast": "ña",
+        "gate": "作世间智慧门",
+        "meaning": "一切法能所知性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b08–0418b09",
+        "normalizedExcerptZhHans": "唱壤字时，入般若波罗蜜门，名：作世间智慧门"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b17–0708b18",
+        "cbetaCharacterId": "SD-A4CE",
+        "hanSourceZhHant": "孃",
+        "iast": "ña",
+        "meaningZhHant": "一切法能所知性不可得",
+        "meaningZhHans": "一切法能所知性不可得",
+        "quoteZhHant": "孃輕呼上字時，入生世間了別般若波羅蜜門，悟一切法能所知性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11597"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER NYA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“壤”，不空本作“娘”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 28,
+      "site": {
+        "han": "曷攞多",
+        "iast": "rtha",
+        "gate": "生死境界智慧轮",
+        "meaning": "一切法执著义性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b10",
+        "normalizedExcerptZhHans": "唱曷攞多字时，入般若波罗蜜门，名：生死境界智慧轮"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b19–0708b20",
+        "cbetaCharacterId": "SD-B6BC",
+        "hanSourceZhHant": "囉他",
+        "iast": "rtha",
+        "meaningZhHant": "一切法執著義性不可得",
+        "meaningZhHans": "一切法执著义性不可得",
+        "quoteZhHant": "囉他二合上字時，入逆生死輪智道場般若波羅蜜門，悟一切法執著義性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A8",
+          "U+115BF",
+          "U+1159E"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER RA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER THA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“曷攞多”，不空本作“啰他”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 29,
+      "site": {
+        "han": "婆",
+        "iast": "bha",
+        "gate": "一切智宫殿圆满庄严",
+        "meaning": "一切法可破坏性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b11",
+        "normalizedExcerptZhHans": "唱婆字时，入般若波罗蜜门，名：一切智宫殿圆满庄严"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b21–0708b22",
+        "cbetaCharacterId": "SD-A5D9",
+        "hanSourceZhHant": "婆",
+        "iast": "bha",
+        "meaningZhHant": "一切法可破壞性不可得",
+        "meaningZhHans": "一切法可破坏性不可得",
+        "quoteZhHant": "婆引去字時，入一切宮殿道場莊嚴般若波羅蜜門，悟一切法可破壞性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A5"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER BHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 30,
+      "site": {
+        "han": "车",
+        "iast": "cha",
+        "gate": "修行方便藏各别圆满",
+        "meaning": "一切法欲乐覆性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b12–0418b13",
+        "normalizedExcerptZhHans": "唱车字时，入般若波罗蜜门，名：修行方便藏各别圆满"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b23–0708b25",
+        "cbetaCharacterId": "SD-A4AA",
+        "hanSourceZhHant": "磋",
+        "iast": "cha",
+        "meaningZhHant": "一切法欲樂覆性不可得",
+        "meaningZhHans": "一切法欲乐覆性不可得",
+        "quoteZhHant": "磋上字時，入修行加行藏蓋差別道場般若波羅蜜門，悟一切法欲樂覆性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11594"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER CHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“车”，不空本作“磋”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 31,
+      "site": {
+        "han": "娑么",
+        "iast": "sma",
+        "gate": "随十方现见诸佛",
+        "meaning": "一切法可忆念性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b14",
+        "normalizedExcerptZhHans": "唱娑么字时，入般若波罗蜜门，名：随十方现见诸佛"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b26–0708b27",
+        "cbetaCharacterId": "SD-B2CC",
+        "hanSourceZhHant": "娑麼",
+        "iast": "sma",
+        "meaningZhHant": "一切法可憶念性不可得",
+        "meaningZhHans": "一切法可忆念性不可得",
+        "quoteZhHant": "娑麼二合字時，入現見十方諸佛旋般若波羅蜜門，悟一切法可憶念性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AD",
+          "U+115BF",
+          "U+115A6"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER MA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 32,
+      "site": {
+        "han": "诃婆",
+        "iast": "hva",
+        "gate": "观察一切无缘众生方便摄受令出生无碍力",
+        "meaning": "一切法可呼召性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b15–0418b16",
+        "normalizedExcerptZhHans": "唱诃婆字时，入般若波罗蜜门，名：观察一切无缘众生方便摄受令出生无碍力"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708b28–0708c01",
+        "cbetaCharacterId": "SD-B070",
+        "hanSourceZhHant": "訶嚩",
+        "iast": "hva",
+        "meaningZhHant": "一切法可呼召性不可得",
+        "meaningZhHans": "一切法可呼召性不可得",
+        "quoteZhHant": "訶嚩二合字時，入觀察一切眾生堪任力遍生海藏般若波羅蜜門，悟一切法可呼召性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AE",
+          "U+115BF",
+          "U+115AA"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER HA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER VA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“诃婆”，不空本作“诃嚩”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 33,
+      "site": {
+        "han": "縒",
+        "iast": "tsa",
+        "gate": "修行趣入一切功德海",
+        "meaning": "一切法勇健性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b17",
+        "normalizedExcerptZhHans": "唱縒字时，入般若波罗蜜门，名：修行趣入一切功德海"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c02–0708c04",
+        "cbetaCharacterId": "SD-E1D0",
+        "hanSourceZhHant": "哆娑",
+        "iast": "tsa",
+        "meaningZhHant": "一切法勇健性不可得",
+        "meaningZhHans": "一切法勇健性不可得",
+        "quoteZhHant": "哆娑二合字時，入一切功德海趣入修行源底般若波羅蜜門，悟一切法勇健性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159D",
+          "U+115BF",
+          "U+115AD"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER TA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER SA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“縒”，不空本作“哆娑”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 34,
+      "site": {
+        "han": "伽",
+        "iast": "gha",
+        "gate": "持一切法云坚固海藏",
+        "meaning": "一切法厚平等性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b18–0418b19",
+        "normalizedExcerptZhHans": "唱伽字时，入般若波罗蜜门，名：持一切法云坚固海藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c05–0708c06",
+        "cbetaCharacterId": "SD-A464",
+        "hanSourceZhHant": "伽",
+        "iast": "gha",
+        "meaningZhHant": "一切法厚平等性不可得",
+        "meaningZhHans": "一切法厚平等性不可得",
+        "quoteZhHant": "伽去字時，入持一切法雲堅固海藏般若波羅蜜門，悟一切法厚平等性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11591"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER GHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 35,
+      "site": {
+        "han": "吒",
+        "iast": "ṭha",
+        "gate": "随愿普见十方诸佛",
+        "meaning": "一切法积集性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b19–0418b20",
+        "normalizedExcerptZhHans": "唱吒字时，入般若波罗蜜门，名：随愿普见十方诸佛"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c07–0708c09",
+        "cbetaCharacterId": "SD-A4E6",
+        "hanSourceZhHant": "姹",
+        "iast": "ṭha",
+        "meaningZhHant": "一切法積集性不可得",
+        "meaningZhHans": "一切法积集性不可得",
+        "quoteZhHant": "姹上字時，入願往詣十方現前見一切佛般若波羅蜜門，悟一切法積集性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11599"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER TTHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“吒”，不空本作“姹”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 36,
+      "site": {
+        "han": "拏",
+        "iast": "ṇa",
+        "gate": "观察字轮有无尽诸亿字",
+        "meaning": "一切法离诸喧诤无往无来行住坐卧不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b21",
+        "normalizedExcerptZhHans": "唱拏字时，入般若波罗蜜门，名：观察字轮有无尽诸亿字"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c10–0708c12",
+        "cbetaCharacterId": "SD-A54B",
+        "hanSourceZhHant": "儜",
+        "iast": "ṇa",
+        "meaningZhHant": "一切法離諸諠諍無往無來行住坐臥不可得",
+        "meaningZhHans": "一切法离诸喧诤无往无来行住坐卧不可得",
+        "quoteZhHant": "儜上字時，入字輪積集俱胝字般若波羅蜜門，悟一切法離諸諠諍無往無來行住坐臥不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159C"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER NNA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“拏”，不空本作“儜”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 37,
+      "site": {
+        "han": "娑颇",
+        "iast": "pha",
+        "gate": "化众生究竟处",
+        "meaning": "一切法遍满果报不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b22",
+        "normalizedExcerptZhHans": "唱娑颇字时，入般若波罗蜜门，名：化众生究竟处"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c13–0708c15",
+        "cbetaCharacterId": "SD-A5C1",
+        "hanSourceZhHant": "頗",
+        "iast": "pha",
+        "meaningZhHant": "一切法遍滿果報不可得",
+        "meaningZhHans": "一切法遍满果报不可得",
+        "quoteZhHant": "頗字時，入成熟一切眾生際往詣道場般若波羅蜜門，悟一切法遍滿果報不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A3"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER PHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“娑颇”，不空本作“颇”；本站汉字栏随T10，悉昙与IAST随T19。",
+        "第37字为显著异本：T10作“娑颇”，不空T19本作“颇”(pha)；本站字形采用不空本。"
+      ]
+    },
+    {
+      "n": 38,
+      "site": {
+        "han": "娑迦",
+        "iast": "ska",
+        "gate": "广大藏无碍辩光明轮遍照",
+        "meaning": "一切法积聚蕴性不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b23–0418b24",
+        "normalizedExcerptZhHans": "唱娑迦字时，入般若波罗蜜门，名：广大藏无碍辩光明轮遍照"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c16–0708c18",
+        "cbetaCharacterId": "SD-CC70",
+        "hanSourceZhHant": "塞迦",
+        "iast": "ska",
+        "meaningZhHant": "一切法積聚蘊性不可得",
+        "meaningZhHans": "一切法积聚蕴性不可得",
+        "quoteZhHant": "塞迦二合上字時，入無著無礙解脫地藏光明輪普照般若波羅蜜門，悟一切法積聚蘊性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AD",
+          "U+115BF",
+          "U+1158E"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER KA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“娑迦”，不空本作“塞迦”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 39,
+      "site": {
+        "han": "也娑",
+        "iast": "ysa",
+        "gate": "宣说一切佛法境界",
+        "meaning": "一切法衰老性相不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b25",
+        "normalizedExcerptZhHans": "唱也娑字时，入般若波罗蜜门，名：宣说一切佛法境界"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c19–0708c21",
+        "cbetaCharacterId": "SD-E1D1",
+        "hanSourceZhHant": "也娑",
+        "iast": "ysa",
+        "meaningZhHant": "一切法衰老性相不可得",
+        "meaningZhHans": "一切法衰老性相不可得",
+        "quoteZhHant": "也娑上二合字時，入宣說一切佛法境界般若波羅蜜門，悟一切法衰老性相不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115A7",
+          "U+115BF",
+          "U+115AD"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER YA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER SA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": []
+    },
+    {
+      "n": 40,
+      "site": {
+        "han": "室者",
+        "iast": "śca",
+        "gate": "于一切众生界法雷遍吼",
+        "meaning": "一切法聚集足迹不可得",
+        "form": "合字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b26–0418b27",
+        "normalizedExcerptZhHans": "唱室者字时，入般若波罗蜜门，名：于一切众生界法雷遍吼"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c22–0708c24",
+        "cbetaCharacterId": "SD-E0BD",
+        "hanSourceZhHant": "室左",
+        "iast": "śca",
+        "meaningZhHant": "一切法聚集足跡不可得",
+        "meaningZhHans": "一切法聚集足迹不可得",
+        "quoteZhHant": "室左二合上字時，入一切虛空以法雲雷震吼普照般若波羅蜜門，悟一切法聚集足跡不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+115AB",
+          "U+115BF",
+          "U+11593"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER SHA",
+          "SIDDHAM SIGN VIRAMA",
+          "SIDDHAM LETTER CA"
+        ],
+        "form": "合字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“室者”，不空本作“室左”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 41,
+      "site": {
+        "han": "侘",
+        "iast": "ṭa",
+        "gate": "以无我法开晓众生",
+        "meaning": "一切法相驱迫性不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b27–0418b28",
+        "normalizedExcerptZhHans": "唱侘字时，入般若波罗蜜门，名：以无我法开晓众生"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c25–0708c27",
+        "cbetaCharacterId": "SD-A4DA",
+        "hanSourceZhHant": "吒",
+        "iast": "ṭa",
+        "meaningZhHant": "一切法相驅迫性不可得",
+        "meaningZhHans": "一切法相驱迫性不可得",
+        "quoteZhHant": "吒上字時，入無我利益眾生究竟邊際般若波羅蜜門，悟一切法相驅迫性不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+11598"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER TTA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“侘”，不空本作“咤”；本站汉字栏随T10，悉昙与IAST随T19。"
+      ]
+    },
+    {
+      "n": 42,
+      "site": {
+        "han": "陀",
+        "iast": "ḍha",
+        "gate": "一切法轮差别藏",
+        "meaning": "一切法究竟处所不可得",
+        "form": "单字"
+      },
+      "gateEvidence": {
+        "sourceId": "T10n0279",
+        "loc": "p.0418b29",
+        "normalizedExcerptZhHans": "唱陀字时，入般若波罗蜜门，名：一切法轮差别藏"
+      },
+      "interpretationEvidence": {
+        "sourceId": "T19n1019",
+        "loc": "p.0708c28–0708c29",
+        "cbetaCharacterId": "SD-A4FE",
+        "hanSourceZhHant": "荼",
+        "iast": "ḍha",
+        "meaningZhHant": "一切法究竟處所不可得",
+        "meaningZhHans": "一切法究竟处所不可得",
+        "quoteZhHant": "荼引去字時，入法輪無差別藏般若波羅蜜門，悟一切法究竟處所不可得故。"
+      },
+      "glyphEvidence": {
+        "sourceId": "T19n1019",
+        "codepoints": [
+          "U+1159B"
+        ],
+        "unicodeNames": [
+          "SIDDHAM LETTER DDHA"
+        ],
+        "form": "单字"
+      },
+      "variantNotes": [
+        "《八十华严》译音作“陀”，不空本作“荼”；本站汉字栏随T10，悉昙与IAST随T19。",
+        "末字异文较多：T10作“陀”，T19不空本作“荼”(ḍha)，其明本异文作“茶”；本站字形采用不空本。"
+      ]
+    }
+  ]
+}

@@ -90,7 +90,7 @@ export default function Practice({ sel, onSelChange }: Props) {
 
   const current = phaseAt(elapsed)
 
-  // 文殊五字模式：持字相（480 秒）中五字轮转，各约 96 秒
+  // 文殊五字模式：识字段（480 秒）中五字轮转，各约 96 秒
   let sylIndex = -1
   if (mode === 'arapacana' && current?.phase.key === 'hold') {
     sylIndex = Math.min(4, Math.floor((elapsed - current.start) / 96))
@@ -114,14 +114,14 @@ export default function Practice({ sel, onSelChange }: Props) {
 
   const holdGuidance =
     mode === 'arapacana'
-      ? '阿—囉—波—遮—那，五字相续，即四十二字门之前五字。声住于字，字住于心。'
+      ? '阿—囉—波—遮—那，是四十二字门之前五字。依次辨认字形、转写与注音。'
       : mode === 'single' && syllable
-        ? `月轮之中，现金色此字（${syllable.iast}，注音 ${syllable.han}）。口持其音，声住于字，字住于心。`
+        ? `辨认此字（${syllable.iast}，注音 ${syllable.han}）的悉昙字形与法义。页面不作密法持诵提示。`
         : null
 
   const contemplateGuidance =
     mode === 'single' && syllable
-      ? `观「${syllable.meaning}」——凡以为实者，于此字下不可得。不寻答案，只住在问里。`
+      ? `随文观「${syllable.meaning}」。所谓不可得，不作断灭解；不急求答案，返观当下身心。`
       : null
 
   useEffect(() => {
@@ -175,15 +175,15 @@ export default function Practice({ sel, onSelChange }: Props) {
     <section id="practice" className="max-w-5xl mx-auto px-6 py-24">
       <header className="text-center mb-12">
         <p className="text-xs tracking-[0.5em] text-gold mb-4" style={{ paddingLeft: '0.5em' }}>
-          日课修持器
+          十五分钟观学
         </p>
         <h2 className="text-2xl sm:text-3xl tracking-[0.25em] text-[#f0e7cb]" style={{ paddingLeft: '0.25em' }}>
-          一座十五分钟
+          十五分钟闻思
         </h2>
         <p className="mt-5 text-sm text-dim leading-loose max-w-2xl mx-auto">
-          入座（身）→ 持字（语）→ 观义（意）→ 回向（行）。每相一磬，观无促令。
+          安身 → 识字 → 随文观义 → 回向。每段一磬，不另催促。
           <br />
-          磬音与月轮皆程序所现，零图片、零音频资源。
+          磬音只作换段提示，月轮图像只作字相学习；不以计时或次数衡量证量，也不代替仪轨传授。
         </p>
       </header>
 
@@ -258,10 +258,10 @@ export default function Practice({ sel, onSelChange }: Props) {
           </div>
         </div>
 
-        {/* 持字选字：任何一字皆可专修 */}
+        {/* 观学选字 */}
         <div className="mt-6 flex items-center gap-3">
           <label htmlFor="syllable-select" className="text-xs tracking-[0.3em] text-dim shrink-0">
-            持字
+            观学字
           </label>
           <select
             id="syllable-select"
@@ -270,17 +270,17 @@ export default function Practice({ sel, onSelChange }: Props) {
             className="rounded-full border border-[#3a3352] bg-[#131022] px-5 py-2 text-sm text-[#e8dfc4] tracking-[0.1em] outline-none focus:border-[#c9a227]/60 transition-colors max-w-[75vw]"
           >
             <optgroup label="总持">
-              <option value="mode:a">阿字一门（a · 本不生）</option>
-              <option value="mode:arapacana">文殊五字（a ra pa ca na）</option>
+              <option value="mode:a">阿字导读（a · 本不生）</option>
+              <option value="mode:arapacana">文殊五字导读（a ra pa ca na）</option>
             </optgroup>
-            <optgroup label="华严四十二字门 · 单字专修">
+            <optgroup label="华严四十二字门 · 单字观学">
               {letters42.map((l) => (
                 <option key={l.n} value={`l:${l.n}`}>
                   第{l.n}字 {l.iast} · 注音 {l.han}
                 </option>
               ))}
             </optgroup>
-            <optgroup label="东密诸尊种子字 · 单字专修">
+            <optgroup label="诸尊种子字 · 字相导读">
               {seedSyllables.map((s) => (
                 <option key={s.iast} value={`s:${s.iast}`}>
                   {s.iast} · 注音 {s.han} · {s.deity}
@@ -308,7 +308,7 @@ export default function Practice({ sel, onSelChange }: Props) {
             className="rounded-full border border-[#c9a227]/60 bg-[#c9a227]/10 px-8 py-2.5 text-sm tracking-[0.3em] text-gold hover:bg-[#c9a227]/20 transition-colors"
             style={{ paddingLeft: 'calc(2rem + 0.3em)' }}
           >
-            {running ? '暂停' : elapsed > 0 && elapsed < TOTAL ? '继续' : elapsed >= TOTAL ? '再修一座' : '开始'}
+            {running ? '暂停' : elapsed > 0 && elapsed < TOTAL ? '继续' : elapsed >= TOTAL ? '再读一次' : '开始'}
           </button>
           <button
             onClick={reset}
@@ -325,7 +325,7 @@ export default function Practice({ sel, onSelChange }: Props) {
         </div>
 
         <p className="mt-8 text-xs tracking-[0.2em] text-[#6f6788]">
-          已修 {sessions} 座 · 座数不上传、不认证，法缘只属于行者自己
+          已完成 {sessions} 次 · 记录仅存此浏览器，不作修证凭据
         </p>
       </div>
     </section>

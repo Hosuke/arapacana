@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 
 interface Props {
   size?: number
-  /** 0..1, 外部驱动的呼吸相位（如日课进度）；缺省则自动呼吸 */
+  /** 0..1, 外部驱动的呼吸相位（如观学进度）；缺省则自动呼吸 */
   phase?: number | null
   dimmed?: boolean
   /** 月轮中所现悉昙字，缺省为阿 */
