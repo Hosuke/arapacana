@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 30% 5%;
+    --foreground: 45 30% 88%;
+    --card: 258 25% 8%;
+    --card-foreground: 45 30% 88%;
+    --popover: 258 25% 8%;
+    --popover-foreground: 45 30% 88%;
+    --primary: 43 60% 52%;
+    --primary-foreground: 255 30% 6%;
+    --secondary: 258 20% 14%;
+    --secondary-foreground: 45 30% 88%;
+    --muted: 258 20% 14%;
+    --muted-foreground: 45 12% 60%;
+    --accent: 258 20% 16%;
+    --accent-foreground: 43 60% 62%;
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 258 18% 20%;
+    --input: 258 18% 20%;
+    --ring: 43 60% 52%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'LXGW WenKai TC', 'Songti SC', serif;
+    background-color: #0b0912;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201, 162, 39, 0.07), transparent),
+      radial-gradient(ellipse 60% 40% at 50% 110%, rgba(90, 70, 140, 0.08), transparent);
+    background-attachment: fixed;
+  }
+  ::selection {
+    background: rgba(201, 162, 39, 0.35);
+    color: #f5edd6;
+  }
+}
+
+.font-latin {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-siddham {
+  font-family: 'Noto Sans Siddham', 'LXGW WenKai TC', serif;
+}
+
+.text-gold {
+  color: #d8b84a;
+}
+
+.text-dim {
+  color: #a99f86;
+}
+
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201, 162, 39, 0.55), transparent);
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.9s ease-out both;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 39, 0.25);
+  border-radius: 3px;
+}
