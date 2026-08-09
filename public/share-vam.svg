@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">字门次第 · Arapacana</title>
+  <desc id="desc">深色底上显现金色月轮与金刚界大日如来种子字 vaṃ</desc>
+  <defs>
+    <radialGradient id="background" cx="27%" cy="46%" r="85%">
+      <stop offset="0" stop-color="#241c3c"/>
+      <stop offset="0.58" stop-color="#100c1c"/>
+      <stop offset="1" stop-color="#08060e"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="48%" r="55%">
+      <stop offset="0" stop-color="#d8b84a" stop-opacity=".33"/>
+      <stop offset="1" stop-color="#d8b84a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="38%" cy="34%" r="68%">
+      <stop offset="0" stop-color="#fff9e8"/>
+      <stop offset=".74" stop-color="#eadcb5"/>
+      <stop offset="1" stop-color="#bda66c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efd56f"/>
+      <stop offset="1" stop-color="#b8872f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect x="24" y="24" width="1152" height="582" rx="28" fill="none" stroke="#d8b84a" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M520 118H1090" stroke="#d8b84a" stroke-opacity=".18"/>
+  <path d="M520 508H1090" stroke="#d8b84a" stroke-opacity=".18"/>
+
+  <circle cx="302" cy="315" r="248" fill="url(#halo)"/>
+  <circle cx="302" cy="315" r="190" fill="#d8b84a" fill-opacity=".18" filter="url(#glow)"/>
+  <circle cx="302" cy="315" r="176" fill="url(#moon)"/>
+  <circle cx="302" cy="315" r="184" fill="none" stroke="url(#gold)" stroke-width="5"/>
+  <circle cx="302" cy="315" r="164" fill="none" stroke="#8a6a1e" stroke-opacity=".24" stroke-width="2"/>
+
+  <!-- 金刚界大日如来种子字 vaṃ；路径与 favicon 同源 -->
+  <g fill="#8a6a1e" transform="translate(226 444) scale(2.62)">
+    <path d="M 42.398438 11 L 44.699219 8.398438 C 40.101562 4.699219 38.5 1.300781 38.5 -5 L 38.5 -46.5 C 45.5 -50.800781 52.601562 -55.800781 58 -62 L 49 -68.300781 C 45.601562 -65.800781 41.101562 -64.5 36.699219 -64.5 C 32.101562 -64.5 29.300781 -66.601562 25.5 -66.601562 C 23.101562 -66.601562 21.300781 -65.5 20.199219 -63.699219 C 18.601562 -64.300781 17 -65.101562 15.699219 -65.898438 C 15 -65.5 14.5 -64.800781 14.5 -63.800781 C 14.5 -61.5 16.601562 -58.601562 27.398438 -51.398438 C 15.398438 -44.300781 4 -39.300781 4 -31.800781 C 4 -20.699219 16.398438 -12.601562 29.5 -5.800781 C 29.5 -0.699219 32.5 4.199219 42.398438 11 Z M 13 -25.699219 C 13 -31.199219 20.300781 -35.800781 29.5 -41.199219 L 29.5 -10 C 17.699219 -16.800781 13 -20.601562 13 -25.699219 Z"/>
+    <path transform="translate(21.203125 0)" d="M 12.101562 -75.898438 L 21.398438 -83.199219 L 12.398438 -89.5 L 3 -82.101562 Z"/>
+  </g>
+
+  <g fill="#efe7d3">
+    <text x="562" y="232" font-family="Songti SC, STSong, serif" font-size="78" font-weight="600" letter-spacing="12">字门次第</text>
+    <text x="568" y="298" font-family="Cormorant Garamond, Georgia, serif" font-size="35" letter-spacing="9" fill="#d8b84a">ARAPACANA</text>
+    <text x="568" y="382" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="300" letter-spacing="4" fill="#d8d0c0">华严四十二字门</text>
+    <text x="568" y="427" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="24" font-weight="300" letter-spacing="3" fill="#a9a0b7">悉昙字相 · 法义导读 · 法源可考</text>
+  </g>
+  <text x="1090" y="552" text-anchor="end" font-family="Georgia, serif" font-size="20" letter-spacing="3" fill="#d8b84a" fill-opacity=".72">vaṃ · 𑖪𑖽</text>
+</svg>
