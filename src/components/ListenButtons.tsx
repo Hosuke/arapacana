@@ -32,7 +32,7 @@ export default function ListenButtons({ iast }: { iast: string }) {
   const ja = jaReadings[iast]
 
   return (
-    <div className="flex items-center gap-2 mt-1" role="group" aria-label="听字音">
+    <div className="flex flex-wrap items-center gap-2 mt-1" role="group" aria-label="听字音">
       <span className="text-xs tracking-[0.3em] text-dim">听</span>
       {kinds.map(kind => (
         <button
@@ -42,7 +42,7 @@ export default function ListenButtons({ iast }: { iast: string }) {
           aria-label={LABELS[kind].title}
           aria-pressed={playing === kind}
           onClick={() => play(kind)}
-          className={`h-7 min-w-7 rounded-full border px-2 text-xs transition-colors ${
+          className={`h-7 min-w-7 whitespace-nowrap rounded-full border px-2 text-xs transition-colors ${
             playing === kind
               ? 'border-gold text-gold bg-[#c9a227]/10'
               : 'border-[#3a3352] text-dim hover:border-gold/60 hover:text-gold'

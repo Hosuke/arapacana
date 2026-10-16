@@ -91,3 +91,9 @@
   background: rgba(201, 162, 39, 0.25);
   border-radius: 3px;
 }
+
+/* 顶栏之横滑：窄屏右缘渐隐、隐其卷轴；宽屏如常 */
+@media (max-width: 639px) {
+  .nav-scroll { mask-image: linear-gradient(to right, #000 calc(100% - 2rem), transparent); -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2rem), transparent); padding-right: 2rem; scrollbar-width: none; }
+  .nav-scroll::-webkit-scrollbar { display: none; }
+}

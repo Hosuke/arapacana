@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import LetterWheel from '@/components/LetterWheel'
 import LetterDossier, { type DossierData } from '@/components/LetterDossier'
+import ListenButtons from '@/components/ListenButtons'
 import { letters42 } from '@/data/letters42'
 
 interface Props {
@@ -44,10 +45,20 @@ export default function WheelSection({ onPractice }: Props) {
             <div className="flex flex-col gap-1">
               <span className="font-latin text-xl text-gold italic">{letter.iast}</span>
               <span className="text-sm text-dim">汉字注音：{letter.han}</span>
+              <ListenButtons key={letter.iast} iast={letter.iast} />
             </div>
-            <span className="text-xs tracking-[0.2em] text-dim ml-auto self-start">
-              第 {letter.n} 字 · {letter.form}
-            </span>
+            {/* 上一字、下一字：手机上字轮之字小，循序而行较点选为便；首尾相接 */}
+            <div className="ml-auto self-start flex flex-col items-end gap-2">
+              <span className="text-xs tracking-[0.2em] text-dim whitespace-nowrap">
+                第 {letter.n} 字 · {letter.form}
+              </span>
+              <div className="flex gap-1.5" role="group" aria-label="循序看字">
+                <button type="button" aria-label="上一字" onClick={() => setSel(sel === 1 ? 42 : sel - 1)}
+                  className="h-9 w-9 rounded-full border border-[#3a3352] text-dim hover:border-gold/60 hover:text-gold transition-colors">‹</button>
+                <button type="button" aria-label="下一字" onClick={() => setSel(sel === 42 ? 1 : sel + 1)}
+                  className="h-9 w-9 rounded-full border border-[#3a3352] text-dim hover:border-gold/60 hover:text-gold transition-colors">›</button>
+              </div>
+            </div>
           </div>
           <div className="gold-rule w-full my-5 opacity-70" />
 

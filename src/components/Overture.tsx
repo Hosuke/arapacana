@@ -160,15 +160,18 @@ function Act({
   children,
   className = '',
   last = false,
+  first = false,
 }: {
   q: number
   children: React.ReactNode
   className?: string
   last?: boolean
+  /** 首幕：开页即见，不待滚动淡入（否则初屏全黑，似页未载） */
+  first?: boolean
 }) {
-  const fadeIn = clamp01(q / 0.15)
+  const fadeIn = first ? 1 : clamp01(q / 0.15)
   const fadeOut = last ? 1 : clamp01((1 - q) / 0.12)
-  const op = q <= 0 ? 0 : fadeIn * fadeOut
+  const op = q <= 0 && !first ? 0 : fadeIn * fadeOut
   return (
     <div
       className={`absolute inset-0 flex flex-col items-center justify-center px-6 text-center transition-none ${className}`}
@@ -278,7 +281,7 @@ export default function Overture() {
         </div>
 
         {/* 〇 序：先有此音 */}
-        <Act q={q0}>
+        <Act q={q0} first>
           <div className="font-siddham text-[26vw] sm:text-[11rem] leading-none text-[#d8b84a]" style={{ textShadow: '0 0 60px rgba(201,162,39,0.4)' }}>
             {'\u{11580}'}
           </div>
