@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import MoonDisc from './MoonDisc'
+import ListenButtons from './ListenButtons'
 import type { Letter42 } from '@/data/letters42'
 import type { SeedSyllable } from '@/data/seeds'
 import provenance from '@/data/letters42.provenance.json'
@@ -82,6 +83,7 @@ export default function LetterDossier({ data, onClose, onPractice }: Props) {
           <div className="flex flex-col gap-1.5">
             <span className="font-latin text-2xl text-gold italic">{iast}</span>
             <span className="text-sm text-dim">《华严经》汉字注音：{han}</span>
+            <ListenButtons key={iast} iast={iast} />
           </div>
         </div>
 

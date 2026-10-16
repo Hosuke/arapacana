@@ -2,7 +2,7 @@
 
 **华严四十二字门 × 诸尊种子字的字相与法义导读网站。**
 
-在线访问：<https://hosuke.github.io/arapacana/>
+在线访问：<https://arapacana.oneness.ren/>（旧址 hosuke.github.io/arapacana/ 由 GitHub Pages 自动转至新址）
 
 > 中文名为**字门次第**。Arapacana（a · ra · pa · ca · na）是四十二字门之前五字，亦见于文殊五字真言。
 > 「字门」摄华严四十二字与诸尊种子字，「次第」摄由闻声、识字、观义而归于日用的学习层次。
